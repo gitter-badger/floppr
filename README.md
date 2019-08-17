@@ -4,6 +4,8 @@ It offers an API to report event from your product, and a command line tool to m
 
 ## How does it works
 
+[![Join the chat at https://gitter.im/flopprhq/community](https://badges.gitter.im/flopprhq/community.svg)](https://gitter.im/flopprhq/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 1. Make sure you have a AWS account. If not, [create](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/) one.
 2. Install the `floppr` command line tool.
 3. Run the `init` floppr command:
