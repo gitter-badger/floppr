@@ -95,12 +95,12 @@ tba
 
 ## How much does it cost
 
-With floppr, you pay only for what you use according to AWS:
+With floppr, you pay only for what you use according to AWS's pricing:
 
-* AWS S3 [pricing](https://aws.amazon.com/s3/pricing/)
-* AWS Glue [pricing](https://aws.amazon.com/glue/pricing/)
-* AWS Athena [pricing](https://aws.amazon.com/athena/pricing/)
-* AWS EMR [pricing](https://aws.amazon.com/emr/pricing/) (optional)
+* [AWS S3](https://aws.amazon.com/s3/pricing/)
+* [AWS Glue](https://aws.amazon.com/glue/pricing/)
+* [AWS Athena](https://aws.amazon.com/athena/pricing/)
+* [AWS EMR](https://aws.amazon.com/emr/pricing/) (optional)
 
 ## How the pipeline works
 
