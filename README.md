@@ -14,8 +14,6 @@ AWS Access Key ID: ****
 AWS Secret Access Key: ****
 ```
 
-tba (elaborate on the organisation domain)
-
 This command sets up a data pipeline within your AWS account. The pipeline includes an HTTP ingestion endpoint, a nightly batch ETL job, Athena database and table, AWS EMR (if needed), etc
 
 4. Download the reporting API
@@ -44,7 +42,12 @@ tba
 pip install floppr
 ```
 
-### How to use the command line
+### Command line options
+
+* `floppr init`: Sets up the data pipeline.
+* `floppr init --emr`: Sets up the data pipeline along with AWS EMR.
+* `floppr destroy`: Tears down the data pipeline.
+* `floppr destroy --data`: Tears down the data pipeline and deletes all data.
 
 ## Reporting API
 
@@ -57,7 +60,7 @@ Add the following code you your page:
 ```html
 <script>
      !function(){window.floppr=window.floppr||function(){(window.floppr.query=window.floppr.query||[]).push(arguments)};var e=document.createElement("script");e.async=!0,e.src="https://floppr.github.io/api.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(e,r)}();
-   </script>
+</script>
 ```
 Call the following code when the page is loaded:
 
