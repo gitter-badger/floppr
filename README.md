@@ -52,33 +52,61 @@ pip install floppr
 
 #### Installation
 
-
 Add the following code you your page:
 
 ```html
-tba
+<script>
+     !function(){window.floppr=window.floppr||function(){(window.floppr.query=window.floppr.query||[]).push(arguments)};var e=document.createElement("script");e.async=!0,e.src="https://floppr.github.io/api.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(e,r)}();
+   </script>
+```
+Call the following code when the page is loaded:
+
+```javascript
+floppr.init({
+    account: '<account id>',
+    product: {
+       code: '<product code>',
+       build: '<product build>'
+    }
+});
 ```
 
-#### Usage
+#### Reporting
 
-Event can be reported from your product this way:
+To report an event, call the following code:
 
 ```javascript
 floppr.event({
     subsystem: '<subsystem you report an event from, e.g. "Login form">',
     id: '<event id, e.g. "Login button is clicked"',
     properties: {
-        '<an additional event property name, e.g. "User type">': '<the property value, e.g. "Paid">',
+        '<an additional event property name, e.g. "User type">': '<the property value, e.g. "Paid">'
     }
 });
 ```
-
-tba (elaborate on the organisation domain)
 
 ### Usage
 
 tba
 
 ## How much does it cost
+
+tba
+
+## How the pipeline works
+
+tba
+
+## How to access the data
+
+### S3
+
+tba
+
+### AWS Athena
+
+tba
+
+### AWS EMR
 
 tba
